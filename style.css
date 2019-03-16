@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+    font-size: 15;
+    color: royalblue;
+}
+
+@media screen and (max-width:990px) {
+    body {
+        background-color: darkcyan;
+        color: black;
+    }
+}
+
+@media screen and (max-width:750px) {
+    body {
+        background-color: red;
+        color: black;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: salmon;
+        color: black;
+    }
+}
